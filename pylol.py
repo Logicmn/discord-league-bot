@@ -2,8 +2,8 @@ import discord
 from discord.ext import commands
 from riotwatcher import RiotWatcher
 
-TOKEN = 'MzMxNTA4NDcwNjE0NDU4MzY4.DDwk7Q.bHBXkzr4kC77X6ERfkqcZGOAGGc'
-lol = RiotWatcher('RGAPI-f79bfe8d-a65f-4726-a985-5f046e922fd6')
+TOKEN = ''
+lol = RiotWatcher('')
 
 description = '''League of Legends bot - Coded in Python by Logicmn'''
 bot = commands.Bot(command_prefix='.', description=description)
